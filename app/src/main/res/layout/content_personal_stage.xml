@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_personal_stage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_side_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sowhat.twoalpha.PersonalStage"
+    tools:showIn="@layout/app_bar_personal_stage">
+
+    <LinearLayout
+        style="@style/PersonalStageRow"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/TextResultTitle"
+            android:text="Time"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/personal_stage_time"
+            style="@style/TextResultValue"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/PersonalStageRow"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/vertical_space">
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/TextResultTitle"
+            android:text="Factor"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/personal_stage_factor"
+            style="@style/TextResultValue"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/PersonalStageRow"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/vertical_space">
+
+        <Button
+            android:id="@+id/button_a"
+            style="@style/ScoreButton"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/button_c"
+            style="@style/ScoreButton"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/button_d"
+            style="@style/ScoreButton"
+            android:text="D" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/PersonalStageRow"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_miss"
+            style="@style/ScoreButton"
+            android:text="Miss" />
+
+        <Button
+            android:id="@+id/button_pt"
+            style="@style/ScoreButton"
+            android:text="PT" />
+
+        <Button
+            android:id="@+id/button_proc"
+            style="@style/ScoreButton"
+            android:text="PROC" />
+
+    </LinearLayout>
+
+</LinearLayout>

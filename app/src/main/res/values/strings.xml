@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TwoAlpha</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="point_a">A</string>
+    <string name="point_c">C</string>
+    <string name="point_d">D</string>
+    <string name="point_miss">Miss</string>
+    <string name="point_pt">PT</string>
+    <string name="point_proc">PROC</string>
+</resources>
